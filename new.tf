@@ -10,7 +10,7 @@ resource "azurerm_storage_account" "myStorage" {
   resource_group_name      = var.azurerm_resource_group_name
   location                 = var.azurerm_resource_group_location
   account_tier             = "Standard"
-  name                     = "storage-acc"
+  name                     = "storageacc"
   account_replication_type = "GRS"
 
 
